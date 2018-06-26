@@ -398,7 +398,7 @@ public class RNSoundModule extends ReactContextBaseJavaModule implements AudioMa
   }
 
   @ReactMethod
-  public void setCategory(final String category, final Boolean mixWithOthers) {
+  public void setCategory(final String category, final Boolean mixWithOthers, final Boolean duckOthers) {
     this.category = category;
     this.mixWithOthers = mixWithOthers;
   }
